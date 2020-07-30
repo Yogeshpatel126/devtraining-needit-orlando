@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci" label="HHD Prototype" max_length="40" name="x_58872_needit_hhd_prototype" sizeclass="0" type="collection">
+        <element attributes="encode_utf8=false" label="Assigned Development Group" max_length="32" name="assigned_development_group" reference="sys_user_group" type="reference"/>
+        <element attributes="encode_utf8=false" label="Prototype Evangelist" max_length="32" name="prototype_evangelist" reference="x_58872_needit_needit" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="HHD Identifier" max_length="40" name="hhd_identifier" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Prototype Number" max_length="40" name="prototype_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Prototype Notes" max_length="4000" name="prototype_notes" type="journal"/>
+    </element>
+</database>
